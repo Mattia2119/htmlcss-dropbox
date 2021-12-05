@@ -20,6 +20,14 @@
     position: relative;
 }
 
+.container-center {
+    height: 100%;
+    border: solid 1px black;
+    margin: auto;
+    position: relative;
+    width: 65%
+}
+
 .row {
     height: 100%;
 }
@@ -33,7 +41,7 @@
 .button-blue {
  color: white;
  background-color:rgb(0, 97, 255 );
- padding: 6px 18px;
+ padding: 5px 18px;
 }
 
 .small-text {
@@ -45,7 +53,7 @@
 /*--Header--*/
 
 header {
-    height: 80px;
+    height: 82px;
     line-height: 80px;
 }
 
@@ -135,4 +143,36 @@ top: 5px;
 
 #jumbotron .fas {
     margin-top:30px;
+}
+
+/*--Fine Jumbotron--*/
+
+/*--Inizio sezione piani di pagamento--*/
+
+#plans {
+    padding-top: 10%;
+
+}
+
+#plans h1 {
+    margin-bottom: 25px;
+}
+
+#plans span {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+#plans input {
+    vertical-align: middle;
+    margin-right:2px
+}
+
+
+.col-left {
+    height: 300px;
+    width: calc(100%/3);
+    border: 1px solid grey;
+    float: left;
+    margin-top: 20px;
 }
