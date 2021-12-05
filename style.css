@@ -1,0 +1,138 @@
+/*Common Rules*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ciao {
+    height: 600px;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    border: solid 1px black;
+    margin: auto;
+    position: relative;
+}
+
+.row {
+    height: 100%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button-blue {
+ color: white;
+ background-color:rgb(0, 97, 255 );
+ padding: 6px 18px;
+}
+
+.small-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/*--Header--*/
+
+header {
+    height: 80px;
+    line-height: 80px;
+}
+
+
+#header-button {
+display: inline;
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+}
+
+a.hover:hover{
+border-bottom: 2px solid black;
+}
+
+.menu-left { 
+    height: 100%;
+    width: 45%;
+    float: left;
+    
+}
+
+.menu-right {
+    height: 100%;
+    width: 45%;
+    float: right;
+}
+
+.menu-left li img {
+position: relative;
+top: 5px;
+}
+
+.menu-left ul {
+    display: inline-block;
+    width: auto;  
+}
+
+.menu-left ul li{
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.menu-right ul li {
+    display: inline-block;
+    float: right;
+    padding-right: 25px;
+}
+
+
+/*--Jumbotron--*/
+
+#jumbotron {
+    background-color: rgb(180, 208, 231);
+    height: 700px;
+    padding-top: 5%;
+}
+
+#jumbotron h1 {
+    font-size: 68px;
+}
+
+.container img {
+    height: 70%;
+    position: absolute;
+    right: -5%;
+    top: 39%;
+}
+
+.content-box  {
+    float: left;
+    margin-top: 4%;
+    width: 40%;
+}
+
+.content-box p {
+    font-weight: 600;
+}
+
+.content-box a {
+    display: inline-block;
+    margin-top:40px;
+    margin-bottom: 10px;
+}
+
+#jumbotron .fas {
+    margin-top:30px;
+}
