@@ -12,17 +12,22 @@
     height: 600px;
 }
 
+.break-line {
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 15px;
+}
+
 .container {
     height: 100%;
     width: 80%;
-    border: solid 1px black;
+    border: 1px solid black;
     margin: auto;
     position: relative;
 }
 
 .container-center {
-    height: 100%;
-    border: solid 1px black;
+    border: 1px solid black;
     margin: auto;
     position: relative;
     width: 70%
@@ -40,7 +45,6 @@
 
 .content-line {
     width: 100%;
-    border: 1px solid red;
     padding-left: 15px;
     font-size: 12px;
 }
@@ -181,7 +185,7 @@ top: 5px;
 .col {
     height: 1000px;
     width: calc(100%/3);
-    border: 1px solid grey;
+    border: 1px solid lightgray;
     float: left;
     margin-top: 20px;
 }
@@ -191,7 +195,7 @@ top: 5px;
 .single-plan {
     height: 45px;
     width: 100%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     text-align: center;
     line-height:45px;
    
@@ -200,7 +204,7 @@ top: 5px;
 .team-plan {
     height: 45px;
     width: 100%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     text-align: center;
     line-height: 45px;
 }
@@ -224,6 +228,11 @@ top: 5px;
     color: grey;
     margin-left: 20px;
     font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.content-line {
+    padding-bottom: 20px;
 }
 
 .free-try-button {
@@ -232,5 +241,25 @@ top: 5px;
  background-color:rgb(0, 97, 255 );
  padding: 5px 40px;
  display: inline-block;
+ width: 90%;
+ text-align: center;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ margin-left: 5px;
+ margin-right: 15px;
 }
+
+.purchase-link {
+    text-decoration: underline;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.fa-check {
+    color:rgb(0, 97, 255 );
+}
+
+
+
+
 
