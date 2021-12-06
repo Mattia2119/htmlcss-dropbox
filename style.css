@@ -23,6 +23,12 @@
     position: relative;
 }
 
+.container::after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
 .container-center {
     border: 1px solid black;
     margin: auto;
@@ -30,6 +36,13 @@
     position: relative;
     width: 70%;   
 }
+
+.container-center::after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
 
 .row {
     height: 100%;
@@ -59,6 +72,11 @@
  padding: 5px 40px;
 }
 
+.white-button {
+    border: 1px solid black;
+    padding: 5px 40px;
+    color: black;
+}
 
 .small-text {
     font-size: 16px;
@@ -138,7 +156,7 @@ top: 5px;
     font-size: 68px;
 }
 
-.container img {
+#jumbotron img {
     height: 70%;
     position: absolute;
     right: -5%;
@@ -283,6 +301,48 @@ top: 5px;
 
 .row.enterprise h5 {
     margin-bottom: 35px;
+}
+
+/*--Regole sezione contact--*/
+
+.contact img{ 
+    height: 400px;
+    float: left;
+}
+
+.contact .row-right {
+    float: left;
+    width: 48%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.row-right h3 {
+    margin-bottom: 30px;   
+}
+
+.row-right p {
+    margin-bottom: 35px;
+}
+
+/*--Regole sezione più operazioni--*/
+
+.row {
+    border: 1px solid black;
+}
+
+.content-line {
+    border: 1px solid black;
+}
+
+#more-operations img {
+    height: 200px;
+    margin-left: 30px;
+}
+
+#more-operations .content-line {
+    width: calc(100%/3);
+    float: left;
 }
 
 
