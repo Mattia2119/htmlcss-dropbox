@@ -365,9 +365,6 @@ top: 5px;
     clear: both;
 }
 
-.content-line {
-}
-
 #sponsors .container-center {
     margin-top: 100px;
 }
@@ -395,8 +392,6 @@ top: 5px;
     width: 30%;
     float: right;
 }
-
-
 
 #sponsors .content-line {
     padding: 0;
@@ -487,4 +482,57 @@ margin-bottom: 30px;
 #text-box p {
     font-size: 16px;
     margin: 40px auto;
+}
+
+/*--Regole sezione porta Dropbox Business--*/
+
+#sponsors-bottom {
+    background-color: rgb(180, 208, 231);
+}
+
+
+#sponsors-bottom h1{ color:rgb(96, 4, 40);
+    font-size: 30px;
+    position:absolute;
+    top: 35%;
+}
+
+#sponsors-bottom .white-button {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    background-color: white;
+    border: none;
+}
+
+#sponsors-bottom .content-line{
+ height: 100%;
+ padding: 0;
+ width: 50%;
+ float: left; 
+ position: relative;
+}
+
+#sponsors-bottom .container-center {
+    height: 250px;
+}
+
+/*--Fine regole sezione porta Dropbox Business--*/
+
+/*--Regole sezione Faq--*/
+
+#faq h1 {
+    margin-bottom: 35px;
+}
+
+#faq .content-line{
+   padding: 0;
+   border: 1px solid black;
+   height: 60px;
+   line-height: 60px;
+}
+
+#faq a {
+    color: black; 
+    font-weight: 700;
 }
