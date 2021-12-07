@@ -354,7 +354,6 @@ top: 5px;
 /*--Inizio sezione sponsors--*/
 
 .large-container {
-    border: 1px solid black;
     height: height: 30vw;
     width: 100%;
 }
@@ -366,11 +365,9 @@ top: 5px;
 }
 
 .content-line {
-    border: 1px solid red;
 }
 
 #sponsors .container-center {
-    border: 1px solid blue;
     margin-top: 100px;
 }
 
@@ -389,23 +386,16 @@ top: 5px;
 #sponsors .left-box {
     height: 30vw;
     width: 30%;
-    border: 1px solid black;
     float: left;
 }
 
 #sponsors .right-box {
     height: 30vw;
     width: 30%;
-    border: 1px solid black;
     float: right;
 }
 
-.text-box {
-    height: 30vw;
-    width: 40%;
-    float: left;
-    border: 2px solid yellow;
-}
+
 
 #sponsors .content-line {
     padding: 0;
@@ -418,11 +408,11 @@ top: 5px;
     width: 100%;  
 }
 
-#sponsors-textbox {
-    border: 1px solid black;
+#sponsors .text-box {
     height: 30vw;
     width: 40%;
     float: left;
+    background-color:rgb(245, 245, 245);
 }
 
 /*--Regole per loghi università--*/
@@ -467,4 +457,33 @@ top: 5px;
 #clear-channel {
     background-color: rgb(255, 216, 48);
     padding: 50px;
+}
+
+
+#text-box {
+    height: 30vw;
+    width: 40%;
+    float: left;
+    text-align: left;
+    background-color: rgb(245, 245, 245);
+}
+
+#text-box {
+    padding: 30px;
+}
+
+#text-box img {
+height: 40px;
+width: 30%;
+margin-bottom: 30px;
+}
+
+
+#text-box hr {
+    width: 10%;
+}
+
+#text-box p {
+    font-size: 16px;
+    margin: 40px auto;
 }
