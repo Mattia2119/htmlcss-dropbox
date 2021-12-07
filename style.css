@@ -355,7 +355,7 @@ top: 5px;
 /*--Inizio sezione sponsors--*/
 
 .large-container {
-    height: height: 30vw;
+    height: 30vw;
     width: 100%;
 }
 
@@ -552,3 +552,67 @@ margin-bottom: 30px;
 }
 
 /*--Regole Footer--*/
+
+/*--Footer--*/
+
+footer {
+    background-color: black;
+    position: relative;
+}
+
+footer .container-center {
+    margin-bottom: 0;
+    background-color: black;
+}
+
+.footer-row {
+    float: left;
+    width: calc(100%/5);
+    margin-bottom: 90px;
+}
+
+.footer-row ul li {
+    list-style: none;
+}
+
+.footer-row ul li a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer-row h3 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+footer hr {
+    width: 10%;
+    margin-bottom: 50px;
+    color: lightgrey;
+}
+
+footer .content-line {
+    padding: 0px;
+}
+
+#language {
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+footer i {
+    color: grey;
+    margin-bottom: 35px;
+}
+
+.fas.fa-sort-up {
+    position: relative;
+    top: 3px;
+}
