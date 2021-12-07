@@ -18,7 +18,6 @@
 .container {
     height: 100%;
     width: 80%;
-    border: 1px solid black;
     margin: auto;
     position: relative;
 }
@@ -30,7 +29,7 @@
 }
 
 .container-center {
-    border: 1px solid black;
+    
     margin: auto;
     margin-bottom: 30px;
     position: relative;
@@ -113,7 +112,6 @@ border-bottom: 2px solid black;
     height: 100%;
     width: 45%;
     float: left;
-    
 }
 
 .menu-right {
@@ -138,7 +136,6 @@ top: 5px;
 }
 
 .menu-right ul li {
-    display: inline-block;
     float: right;
     padding-right: 25px;
 }
@@ -189,7 +186,6 @@ top: 5px;
 
 .plans {
     padding-top: 10%;
-
 }
 
 .plans h1 {
@@ -262,17 +258,17 @@ top: 5px;
 }
 
 .free-try-button {
- color: white;
- font-size: 14px;
- background-color:rgb(0, 97, 255 );
- padding: 5px 40px;
- display: inline-block;
- width: 90%;
- text-align: center;
- margin-top: 30px;
- margin-bottom: 30px;
- margin-left: 5px;
- margin-right: 15px;
+    color: white;
+    font-size: 14px;
+    background-color:rgb(0, 97, 255 );
+    padding: 5px 40px;
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 15px;
 }
 
 .purchase-link {
@@ -286,6 +282,10 @@ top: 5px;
 }
 
 /*--Regole per Enterprise--*/
+
+.enterprise .container-center {
+    border: 1px solid lightgray;
+}
 
 .row.enterprise a{
     float: right;
@@ -304,6 +304,11 @@ top: 5px;
 }
 
 /*--Regole sezione contact--*/
+
+.contact .container-center {
+    border: none;
+    margin: 100px auto;
+}
 
 .contact img{ 
     height: 400px;
@@ -327,13 +332,6 @@ top: 5px;
 
 /*--Regole sezione più operazioni--*/
 
-.row {
-    border: 1px solid black;
-}
-
-.content-line {
-    border: 1px solid black;
-}
 
 #more-operations img {
     height: 200px;
@@ -345,7 +343,128 @@ top: 5px;
     float: left;
 }
 
+#more-operations h2 {
+    margin-bottom: 20px;
+}
 
+#more-operations .container-center {
+    border: none;
+}
 
+/*--Inizio sezione sponsors--*/
 
+.large-container {
+    border: 1px solid black;
+    height: height: 30vw;
+    width: 100%;
+}
 
+.large-container::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.content-line {
+    border: 1px solid red;
+}
+
+#sponsors .container-center {
+    border: 1px solid blue;
+    margin-top: 100px;
+}
+
+#sponsors .container-center h1 {
+    width: 41%;
+    margin-bottom: 20px;
+}
+
+#sponsors a {
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+}
+
+#sponsors .left-box {
+    height: 30vw;
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+}
+
+#sponsors .right-box {
+    height: 30vw;
+    width: 30%;
+    border: 1px solid black;
+    float: right;
+}
+
+.text-box {
+    height: 30vw;
+    width: 40%;
+    float: left;
+    border: 2px solid yellow;
+}
+
+#sponsors .content-line {
+    padding: 0;
+    height: 15vw;
+    width: 50%;
+    float: left;
+}
+#sponsors img {
+    height: 15vw;
+    width: 100%;  
+}
+
+#sponsors-textbox {
+    border: 1px solid black;
+    height: 30vw;
+    width: 40%;
+    float: left;
+}
+
+/*--Regole per loghi università--*/
+
+#designit {
+    background-color: rgb(162, 211, 155);
+    border: 8px solid rgb(208, 233, 205);
+    padding: 15px;
+}
+
+#arizona {
+    background-color: rgb(97, 8, 43);
+    padding: 40px;
+}
+
+#florida {
+    background-color: rgb(0, 147, 206);
+    padding: 105px 50px;
+}
+
+#topps {
+    background-color:rgb(255, 28, 28);
+    padding: 50px;
+}
+
+#bicycle {
+    background-color: rgb(213, 0, 31);
+    padding: 50px;
+}
+
+#hearst-corp {
+    background-color: rgb(180, 208, 231);
+    padding: 50px;
+}
+
+#lonely-planet {
+    background-color: rgb(13, 36, 129);
+    padding: 50px;
+    color: white;
+}
+
+#clear-channel {
+    background-color: rgb(255, 216, 48);
+    padding: 50px;
+}
